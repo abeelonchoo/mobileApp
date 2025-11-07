@@ -68,7 +68,7 @@ body.fade-out {
 }
 
 .header h6 {
-    margin-top: 50px;
+    margin-top: 20px;
 margin-left:-80px;
 font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -166,3 +166,138 @@ gap: 20px;
     background-color: rgba(200, 199, 199, 0.526);
     border-radius: 30px;
 }
+
+
+/*MESSAGES.HTML*/
+
+
+.mobile1{
+    width: 320px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px rgba(30, 49, 119, 0.376);
+    border-radius: 30px;
+     overflow: hidden;
+     flex-direction:column;
+     display: flex;
+     margin: 0;
+}
+
+
+
+
+.mobile1 h1,h6{
+      margin: 0;
+}
+
+
+.header h1{
+    margin-left: 20px;
+
+}
+
+
+.mobile1 h5{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+margin-left: 5px;
+top: 100px;
+border-radius: 20px;
+border: 1px solid black;
+margin-right: 30px;
+padding: 5px 5px;
+background-color: #a7bdde;
+animation: message 1s ease;
+}
+.mobile1 h5:hover{
+    background-color: #97afd4;
+}
+
+@keyframes message{
+    from {
+        transform: translateY(1000%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+.mobile1 input{
+    margin-top:51vh;
+    height:5vh;
+    margin-left: 7%;
+    margin-right: 7%;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.372);
+}
+.mobile1 input:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.mobile1 input::placeholder{
+    font-size: 13px;
+left: 20px;
+}
+
+/*NOTIFICATIONS PANEL*/
+
+.header2{
+     display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 120px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+    margin-left: 20px;
+    margin-right: 20px;
+      text-align: center;
+}
+
+.header2 h1{
+  font-family: "Stack Sans Headline", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mobile2{
+      width: 320px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px rgba(30, 49, 119, 0.376);
+    border-radius: 30px;
+     overflow: hidden;
+     flex-direction: column;
+     display: inline-block;
+}
+#button1{
+    width:60px;
+    margin-top: 20px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  border: 0;
+  color:#0000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #0000FF;
+    gap:10px
+}
+#button2{
+    width:60px;
+    margin-top: 20px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 0;
+  color:#0000FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #0000FF;
+}
+
